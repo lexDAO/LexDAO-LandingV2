@@ -1,5 +1,5 @@
 {
-  "name": "juris",
+  "name": "lexDAO",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -14,7 +14,6 @@
     "bootstrap": "^4.5.0",
     "classnames": "^2.2.6",
     "docusaurus-plugin-sass": "^0.1.8",
-    "juris-branding": "https://github.com/KonstantinSolutions/juris-branding.git",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "reactstrap": "^8.4.1"
