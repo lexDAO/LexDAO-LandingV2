@@ -3,7 +3,7 @@ https://github.com/KonstantinSolutions/juris-branding/tree/master/SCSS
 */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-// @import '../../node_modules/juris-branding/SCSS/colors.scss';
-// @import '../../node_modules/juris-branding/SCSS/fonts.scss';
+@import '../../node_modules/juris-branding/SCSS/colors.scss';
+@import '../../node_modules/juris-branding/SCSS/fonts.scss';
 
 $global-padding: 1rem;
