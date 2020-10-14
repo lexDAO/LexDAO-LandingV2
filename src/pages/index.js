@@ -15,7 +15,7 @@ const features = [
     imageUrl: 'img/undraw_open_source_1qxw.svg',
     description: (
       <Fragment>
-        Juris is building an open document assembly toolkit and template library. All of our code is free to use. Our goal is maximum interoperability with all existing systems.
+        
       </Fragment>
     ),
   },
@@ -86,7 +86,7 @@ function Home() {
   const { siteConfig = {} } = context;
   return (
     <Layout
-      title={`Juris - Reboot the legal system.`}
+      title={`lexDAO - Reboot the legal system.`}
       description="We're a community of Legal Engineers who aim to use open source to make the legal system work for everyone.<head />">
       <header className={classnames('hero hero--primary hero--dark', styles.heroBanner)}>
         <Container>
