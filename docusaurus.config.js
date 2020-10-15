@@ -56,16 +56,16 @@ module.exports = {
           title: '',
           items: [
             {
-              label: 'Manifesto',
+              label: 'DAO',
               to: 'docs/manifesto',
             },
             {
-              label: 'Mission',
+              label: 'Handbook',
               to: 'docs/doc2/',
             },
             {
-              label: 'How to Join',
-              to: 'docs/doc2/',
+              label: 'Snapshot',
+              to: 'https://snapshot.page/#/lexdao',
             },
           ],
         },
@@ -73,12 +73,16 @@ module.exports = {
           title: '',
           items: [
             {
-              label: 'Discord',
-              href: 'https://discord.gg/ecXCaWC',
+              label: 'Community',
+              href: 'https://discord.gg/qbUhmH4',
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/getjuris',
+              label: 'Join',
+              href: 'https://discord.gg/qbUhmH4',
+            },
+            {
+              label: 'Support',
+              href: 'https://discord.gg/KmFNEmp',
             },
           ],
         },
@@ -86,12 +90,12 @@ module.exports = {
           title: '',
           items: [
             {
-              label: 'Blog',
-              href: 'https://getjuris.com/publications',
+              label: 'Dapps',
+              href: 'https://dapps.lexdao.org',
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/jurisproject',
+              href: 'https://github.com/lexDAO',
             },
           ],
         },
