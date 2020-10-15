@@ -20,7 +20,7 @@ const features = [
     ),
   },
   {
-    title: "No Code",
+    title: "Filler",
     imageUrl: 'img/undraw_ideas_flow_cy7b.svg',
     description: (
       <Fragment>
@@ -29,7 +29,7 @@ const features = [
     ),
   },
   {
-    title: "Full Stack",
+    title: "Filler",
     imageUrl: 'img/undraw_functions_egi3.svg',
     description: (
       <Fragment>
@@ -38,7 +38,7 @@ const features = [
     ),
   },
   {
-    title: "Simple and Human",
+    title: "Filler",
     imageUrl: 'img/undraw_relaxing_at_home_9tyc.svg',
     description: (
       <Fragment>
@@ -47,7 +47,7 @@ const features = [
     ),
   },
   {
-    title: "Community Owned",
+    title: "Filler",
     imageUrl: 'img/undraw_community_8nwl.svg',
     description: (
       <Fragment>
@@ -56,7 +56,7 @@ const features = [
     ),
   },
   {
-    title: "Client Side/Serverless",
+    title: "Filler",
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <Fragment>
@@ -146,7 +146,13 @@ function Home() {
             <Row>
               <Col className="pt-5 pb-5">
                 <h1>Join LexDAO</h1>
-                <h4 style={{fontWeight: `400`}}>Want to join LexDAO? The best way is just to show up. Drop into the Discord, attend the weekly community calls, maybe throw down some code during the hacking sessions. If it's clear that you're contributing value, a LexDAO member might nominate you to join the DAO. If you're so fired up you can't wait, you can fill out the form launched by the button below to kick start a nomination by giving us your contact info.</h4><br/><br/><Button style={{width: `400px`, height: `80px`, fontSize: `3em`, textAlign: `center`, background: `#7177e3`, color: `white`}}>Join lexDAO</Button>
+                <h4 style={{fontWeight: `400`}}>Want to join LexDAO? The best way is just to show up. Drop into the Discord, attend the weekly community calls, maybe throw down some code during the hacking sessions. If it's clear that you're contributing value, a LexDAO member might nominate you to join the DAO. If you're so fired up you can't wait, you can fill out the form launched by the button below to kick start a nomination by giving us your contact info.</h4><br/><Button tag={Link}
+                    outline color="dark"
+                    size="lg"
+                    className={classnames(
+                      `ml-2`,
+                    )}
+                    to={useBaseUrl('https://discord.gg/qbUhmH4')}>Join lexDAO</Button>
               </Col>
             </Row>
             <h1>Features:</h1>

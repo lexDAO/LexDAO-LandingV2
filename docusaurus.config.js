@@ -80,6 +80,7 @@ module.exports = {
               label: 'Join',
               href: 'https://discord.gg/qbUhmH4',
             },
+            {
               label: 'Support',
               href: 'https://discord.gg/KmFNEmp',
             },
