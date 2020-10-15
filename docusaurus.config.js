@@ -10,7 +10,7 @@ module.exports = {
   projectName: 'lexDAO', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: "lexDAO",
+      title: "",
       // logo: {
       //   alt: 'lexDAO-Logo',
       //   src: 'img/lexDAO-Substack-Header.png',
