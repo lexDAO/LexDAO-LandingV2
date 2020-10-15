@@ -3,7 +3,7 @@ const path = require("path");
 module.exports = {
   title: 'lexDAO',
   tagline: 'Community of Legal Engineers',
-  url: 'https://nifty-heisenberg-a6b091.netlify.app',
+  url: 'https://focused-murdock-699fb2.netlify.app/',
   baseUrl: '/',
   favicon: 'img/lexDAO-Substack-Header.png',
   organizationName: 'lexDAO', // Usually your GitHub org/user name.

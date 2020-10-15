@@ -93,8 +93,8 @@ function Home() {
           <Row>
             <Col xs="6" className="p-2">
               <img className="pb-2 pt-3" src="img/" />
-              <h1 className="pt-2 pb-2 pl-2 hero__title">Time to reboot the legal system.</h1>
-              <p className="pt-2 pb-2 pl-2 hero__subtitle"> Juris is building open source document tools and open document templates.<br></br><br></br> All free to use.</p>
+              <h1 className="pt-2 pb-2 pl-2 hero__title">lexDAO</h1>
+              <p className="pt-2 pb-2 pl-2 hero__subtitle">The Decentralized Legal Engineering Guild<br></br><br></br></p>
               <div className="pt-2">
                 <div className={styles.buttons}>
                   <Button
@@ -116,8 +116,8 @@ function Home() {
                       `ml-2`,
                       styles.getStarted,
                     )}
-                    to={useBaseUrl('https://getjuris.com')}>
-                    Get Legal Help
+                    to={useBaseUrl('https://discord.gg/qbUhmH4')}>
+                    Join
                 </Button>
                 </div>
               </div>
@@ -133,7 +133,7 @@ function Home() {
           <Container>
             <Row>
               <Col className="pt-5 pb-5">
-                <h1>What is Juris?</h1>
+                <h1>What is lexDAO?</h1>
                 <p>Juris is a decentralized public benefit corporation. (We are transitioning to a cooperative ownership model. More on that soon!) We are focused on using open source software to fix the legal system.</p> 
                 <p>We maintain the open source Juris document assembly toolkit, the open template library, and run <a href="https://getjuris.com">Getjuris.com</a>, where we use Juris to build legal self help apps.</p>
                 <p>Currently, we are building an open standard for gathering user input via conversational interview flows, and generating documents from that input. If you would like to contribute start by visiting our <a href="./docs">handbook.</a></p>
