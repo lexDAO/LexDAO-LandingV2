@@ -5,7 +5,7 @@ module.exports = {
   tagline: 'Community of Legal Engineers',
   url: 'https://focused-murdock-699fb2.netlify.app/',
   baseUrl: '/',
-  favicon: 'img/lexDAO-Substack-Header.png',
+  favicon: 'img/lexDAO-Logo-White.png',
   organizationName: 'lexDAO', // Usually your GitHub org/user name.
   projectName: 'lexDAO', // Usually your repo name.
   themeConfig: {
