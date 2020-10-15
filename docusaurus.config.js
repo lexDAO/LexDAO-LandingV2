@@ -97,6 +97,14 @@ module.exports = {
               label: 'GitHub',
               href: 'https://github.com/lexDAO',
             },
+            {
+              label: 'Blog',
+              href: 'https://lexdao.substack.com',
+            },
+            {
+              label: 'Newsletter',
+              href: 'https://lexdao.substack.com',
+            },
           ],
         },
       ],
