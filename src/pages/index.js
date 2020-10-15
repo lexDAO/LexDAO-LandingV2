@@ -87,7 +87,7 @@ function Home() {
   return (
     <Layout
       title={`lexDAO - Legal Engineers.`}
-      description="We're a community of Legal Engineers who aim to use open source to make the legal system work for everyone.<head />">
+      description="We're a community of Legal Engineers who aim to use open source to make the legal system work for everyone.">
       <header className={classnames('hero hero--primary hero--dark', styles.heroBanner)}>
         <Container>
           <Row>
@@ -134,9 +134,23 @@ function Home() {
             <Row>
               <Col className="pt-5 pb-5">
                 <h1>What is lexDAO?</h1>
-                <p>Juris is a decentralized public benefit corporation. (We are transitioning to a cooperative ownership model. More on that soon!) We are focused on using open source software to fix the legal system.</p> 
-                <p>We maintain the open source Juris document assembly toolkit, the open template library, and run <a href="https://getjuris.com">Getjuris.com</a>, where we use Juris to build legal self help apps.</p>
-                <p>Currently, we are building an open standard for gathering user input via conversational interview flows, and generating documents from that input. If you would like to contribute start by visiting our <a href="./docs">handbook.</a></p>
+                <p>If you would like to learn more, start by visiting our <a href="./docs">handbook.</a></p>
+              </Col>
+            </Row>
+            <Row>
+            <Col className="pt-5 pb-5"><p><strong>Disclaimer: </strong>
+LexDAO is a club, not a law firm and not even a legal entity. Unless otherwise stated in writing, all conversations and communications with DAO members which take place in any public or semi-public forum (e.g. Discord or Twitter) are not to be considered legal advice for any purpose. To the extent applicable, LexDAO, LLC, a Delaware registered LLC, is the only legal entity with which it is possible to conduct contractual business with the DAO. For explicit statement, no individual DAO member is an agent of other DAO members or for LexDAO, LLC.</p></Col>
+            </Row>
+            <Row>
+              <Col className="pt-5 pb-5">
+                <h1>About LexDAO</h1>
+                <p>LexDAO is a group of legal engineering professionals who are seeking to provide a trusted layer between the decentralized world of blockchains and a legal settlement layer in the real world. We are trying to bridge this layer to provide a working framework for organizations to work in a trustless and trusted manner using Ethereum, blockchains, smart contracts and decentralized organizations.</p>
+              </Col>
+            </Row>
+            <Row>
+              <Col className="pt-5 pb-5">
+                <h1>Join LexDAO</h1>
+<p>Want to join LexDAO? The best way is just to show up. Drop into the Discord, attend the weekly community calls, maybe throw down some code during the hacking sessions. If it's clear that you're contributing value, a LexDAO member might nominate you to join the DAO. If you're so fired up you can't wait, you can fill out the form launched by the button below to kick start a nomination by giving us your contact info.</p>
               </Col>
             </Row>
             <h1>Features:</h1>

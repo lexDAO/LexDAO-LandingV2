@@ -53,7 +53,7 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Handbook',
+          title: '',
           items: [
             {
               label: 'Manifesto',
@@ -70,7 +70,7 @@ module.exports = {
           ],
         },
         {
-          title: 'Community',
+          title: '',
           items: [
             {
               label: 'Discord',
@@ -83,7 +83,7 @@ module.exports = {
           ],
         },
         {
-          title: 'More',
+          title: '',
           items: [
             {
               label: 'Blog',
