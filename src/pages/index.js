@@ -138,14 +138,15 @@ function Home() {
               </Col>
             </Row>
             <Row>
-            <Col className="pt-5 pb-5"><p><strong>Disclaimer: </strong>
-LexDAO is a club, not a law firm and not even a legal entity. Unless otherwise stated in writing, all conversations and communications with DAO members which take place in any public or semi-public forum (e.g. Discord or Twitter) are not to be considered legal advice for any purpose. To the extent applicable, LexDAO, LLC, a Delaware registered LLC, is the only legal entity with which it is possible to conduct contractual business with the DAO. For explicit statement, no individual DAO member is an agent of other DAO members or for LexDAO, LLC.</p></Col>
-            </Row>
-            <Row>
               <Col className="pt-5 pb-5">
                 <h1>About LexDAO</h1>
                 <p>LexDAO is a group of legal engineering professionals who are seeking to provide a trusted layer between the decentralized world of blockchains and a legal settlement layer in the real world. We are trying to bridge this layer to provide a working framework for organizations to work in a trustless and trusted manner using Ethereum, blockchains, smart contracts and decentralized organizations.</p>
               </Col>
+            </Row>
+            <Row>
+            <Col className="pt-5 pb-5">
+              <p><strong>Disclaimer: </strong>
+LexDAO is a club, not a law firm and not even a legal entity. Unless otherwise stated in writing, all conversations and communications with DAO members which take place in any public or semi-public forum (e.g. Discord or Twitter) are not to be considered legal advice for any purpose. To the extent applicable, LexDAO, LLC, a Delaware registered LLC, is the only legal entity with which it is possible to conduct contractual business with the DAO. For explicit statement, no individual DAO member is an agent of other DAO members or for LexDAO, LLC.</p></Col>
             </Row>
             <Row>
               <Col className="pt-5 pb-5">
