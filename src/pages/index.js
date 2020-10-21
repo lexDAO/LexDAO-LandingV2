@@ -107,7 +107,7 @@ function Home() {
                       styles.getStarted,
                     )}
                     to={useBaseUrl('docs/')}>
-                    Get Started
+                    View Handbook
                 </Button>
                   <Button
                     tag={Link}
@@ -118,7 +118,7 @@ function Home() {
                       styles.getStarted,
                     )}
                     to={useBaseUrl('https://discord.gg/qbUhmH4')}>
-                    Join
+                    Join LexDAO
                 </Button>
                 </div>
               </div>
