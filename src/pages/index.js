@@ -117,7 +117,7 @@ function Home() {
                       `ml-2`,
                       styles.getStarted,
                     )}
-                    to={useBaseUrl('https://discord.gg/qbUhmH4')}>
+                    to={'/#join-lexDAO'}>
                     Join LexDAO
                 </Button>
                 </div>
@@ -139,20 +139,20 @@ function Home() {
               </Col>
               </Row>
               <Row>
-                <Col className="pt-5 pb-5"><hr/><h2>Disclaimer: </h2><h4 style={{fontWeight: `400`}}>
+                <Col className="pt-5 pb-5"><hr/><h2 >Disclaimer: </h2><h4 style={{fontWeight: `400`}}>
                 LexDAO is a club, not a law firm and not even a legal entity. Unless otherwise stated in writing, all conversations and communications with DAO members which take place in any public or semi-public forum (e.g. Discord or Twitter) are not to be considered legal advice for any purpose. To the extent applicable, LexDAO, LLC, a Delaware registered LLC, is the only legal entity with which it is possible to conduct contractual business with the DAO. For explicit statement, no individual DAO member is an agent of other DAO members or for LexDAO, LLC.</h4><br/><hr/>
               </Col>
             </Row>
             <Row>
               <Col className="pt-5 pb-5">
-                <h1>Join LexDAO</h1>
+                <h1 id="join-lexDAO">Join LexDAO</h1>
                 <h4 style={{fontWeight: `400`}}>Want to join LexDAO? The best way is just to show up. Drop into the Discord, attend the weekly community calls, maybe throw down some code during the hacking sessions. If it's clear that you're contributing value, a LexDAO member might nominate you to join the DAO. If you're so fired up you can't wait, you can fill out the form launched by the button below to kick start a nomination by giving us your contact info.</h4><br/><Button tag={Link}
                     outline color="dark"
                     size="lg"
                     className={classnames(
                       `ml-2`,
                     )}
-                    to={useBaseUrl('https://discord.gg/qbUhmH4')}>Join lexDAO</Button>
+                    to={useBaseUrl('https://discord.gg/qbUhmH4')}>Join LexDAO</Button>
               </Col>
             </Row>
             <h1>Features:</h1>
