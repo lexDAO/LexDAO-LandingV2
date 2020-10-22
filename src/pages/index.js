@@ -135,18 +135,18 @@ function Home() {
             <Row>
               <Col className="pt-5 pb-5">
                 <h1>About LexDAO</h1>
-                <h4 style={{fontWeight: `400`}}>LexDAO is a group of legal engineering professionals who are seeking to provide a trusted layer between the decentralized world of blockchains and a legal settlement layer in the real world. We are trying to bridge this layer to provide a working framework for organizations to work in a trustless and trusted manner using Ethereum, blockchains, smart contracts and decentralized organizations.</h4>
+                <p style={{fontWeight: `400`}}>LexDAO is a group of legal engineering professionals who are seeking to provide a trusted layer between the decentralized world of blockchains and a legal settlement layer in the real world. We are trying to bridge this layer to provide a working framework for organizations to work in a trustless and trusted manner using Ethereum, blockchains, smart contracts and decentralized organizations.</p>
               </Col>
               </Row>
               <Row>
-                <Col className="pt-5 pb-5"><hr/><h2 >Disclaimer: </h2><h4 style={{fontWeight: `400`}}>
-                LexDAO is a club, not a law firm and not even a legal entity. Unless otherwise stated in writing, all conversations and communications with DAO members which take place in any public or semi-public forum (e.g. Discord or Twitter) are not to be considered legal advice for any purpose. To the extent applicable, LexDAO, LLC, a Delaware registered LLC, is the only legal entity with which it is possible to conduct contractual business with the DAO. For explicit statement, no individual DAO member is an agent of other DAO members or for LexDAO, LLC.</h4><br/><hr/>
+                <Col className="pt-5 pb-5"><hr/><h2 >Disclaimer: </h2><p style={{fontWeight: `400`}}>
+                LexDAO is a club, not a law firm and not even a legal entity. Unless otherwise stated in writing, all conversations and communications with DAO members which take place in any public or semi-public forum (e.g. Discord or Twitter) are not to be considered legal advice for any purpose. To the extent applicable, LexDAO, LLC, a Delaware registered LLC, is the only legal entity with which it is possible to conduct contractual business with the DAO. For explicit statement, no individual DAO member is an agent of other DAO members or for LexDAO, LLC.</p><br/><hr/>
               </Col>
             </Row>
             <Row>
               <Col className="pt-5 pb-5">
                 <h1 id="join-lexDAO">Join LexDAO</h1>
-                <h4 style={{fontWeight: `400`}}>Want to join LexDAO? The best way is just to show up. Drop into the Discord, attend the weekly community calls, maybe throw down some code during the hacking sessions. If it's clear that you're contributing value, a LexDAO member might nominate you to join the DAO. If you're so fired up you can't wait, you can fill out the form launched by the button below to kick start a nomination by giving us your contact info.</h4><br/><Button tag={Link}
+                <p style={{fontWeight: `400`}}>Want to join LexDAO? The best way is just to show up. Drop into the Discord, attend the weekly community calls, maybe throw down some code during the hacking sessions. If it's clear that you're contributing value, a LexDAO member might nominate you to join the DAO. If you're so fired up you can't wait, you can fill out the form launched by the button below to kick start a nomination by giving us your contact info.</p><br/><Button tag={Link}
                     outline color="dark"
                     size="lg"
                     className={classnames(
