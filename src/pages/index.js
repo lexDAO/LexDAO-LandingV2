@@ -94,8 +94,8 @@ function Home() {
             <Col xs="6" className="p-2">
               {/* <img className="pb-2 pt-3" src="img/lexDAO-Logo-White.png" width="350px" height="300px" /> */}
               <br/><br/><br/><br/>
-              <h1 className="pt-2 pb-2 pl-2 hero__title">lexDAO</h1>
-              <p className="pt-2 pb-2 pl-2 hero__subtitle">The Decentralized Legal Engineering Guild<br></br><br></br></p>
+              <h1 className="pt-2 pb-2 pl-2 hero__title">The Decentralized Legal Engineering Guild</h1>
+            {/* <p className="pt-2 pb-2 pl-2 hero__subtitle">The Decentralized Legal Engineering Guild<br></br><br></br></p> */}
               <div className="pt-2">
                 <div className={styles.buttons}>
                   <Button
@@ -107,7 +107,7 @@ function Home() {
                       styles.getStarted,
                     )}
                     to={useBaseUrl('docs/')}>
-                    Get Started
+                    View Handbook
                 </Button>
                   <Button
                     tag={Link}
@@ -117,8 +117,8 @@ function Home() {
                       `ml-2`,
                       styles.getStarted,
                     )}
-                    to={useBaseUrl('https://discord.gg/qbUhmH4')}>
-                    Join
+                    to={'/#join-lexDAO'}>
+                    Join LexDAO
                 </Button>
                 </div>
               </div>
@@ -135,28 +135,28 @@ function Home() {
             <Row>
               <Col className="pt-5 pb-5">
                 <h1>About LexDAO</h1>
-                <h4 style={{fontWeight: `400`}}>LexDAO is a group of legal engineering professionals who are seeking to provide a trusted layer between the decentralized world of blockchains and a legal settlement layer in the real world. We are trying to bridge this layer to provide a working framework for organizations to work in a trustless and trusted manner using Ethereum, blockchains, smart contracts and decentralized organizations.</h4>
+                <p style={{fontWeight: `400`}}>LexDAO is a group of legal engineering professionals who are seeking to provide a trusted layer between the decentralized world of blockchains and a legal settlement layer in the real world. We are trying to bridge this layer to provide a working framework for organizations to work in a trustless and trusted manner using Ethereum, blockchains, smart contracts and decentralized organizations.</p>
               </Col>
               </Row>
               <Row>
-                <Col className="pt-5 pb-5"><hr/><h2>Disclaimer: </h2><h4 style={{fontWeight: `400`}}>
-                LexDAO is a club, not a law firm and not even a legal entity. Unless otherwise stated in writing, all conversations and communications with DAO members which take place in any public or semi-public forum (e.g. Discord or Twitter) are not to be considered legal advice for any purpose. To the extent applicable, LexDAO, LLC, a Delaware registered LLC, is the only legal entity with which it is possible to conduct contractual business with the DAO. For explicit statement, no individual DAO member is an agent of other DAO members or for LexDAO, LLC.</h4><br/><hr/>
+                <Col className="pt-5 pb-5"><hr/><h2 >Disclaimer: </h2><p style={{fontWeight: `400`}}>
+                LexDAO is a club, not a law firm and not even a legal entity. Unless otherwise stated in writing, all conversations and communications with DAO members which take place in any public or semi-public forum (e.g. Discord or Twitter) are not to be considered legal advice for any purpose. To the extent applicable, LexDAO, LLC, a Delaware registered LLC, is the only legal entity with which it is possible to conduct contractual business with the DAO. For explicit statement, no individual DAO member is an agent of other DAO members or for LexDAO, LLC.</p><br/><hr/>
               </Col>
             </Row>
             <Row>
               <Col className="pt-5 pb-5">
-                <h1>Join LexDAO</h1>
-                <h4 style={{fontWeight: `400`}}>Want to join LexDAO? The best way is just to show up. Drop into the Discord, attend the weekly community calls, maybe throw down some code during the hacking sessions. If it's clear that you're contributing value, a LexDAO member might nominate you to join the DAO. If you're so fired up you can't wait, you can fill out the form launched by the button below to kick start a nomination by giving us your contact info.</h4><br/><Button tag={Link}
+                <h1 id="join-lexDAO">Join LexDAO</h1>
+                <p style={{fontWeight: `400`}}>Want to join LexDAO? The best way is just to show up. Drop into the Discord, attend the weekly community calls, maybe throw down some code during the hacking sessions. If it's clear that you're contributing value, a LexDAO member might nominate you to join the DAO. If you're so fired up you can't wait, you can fill out the form launched by the button below to kick start a nomination by giving us your contact info.</p><br/><Button tag={Link}
                     outline color="dark"
                     size="lg"
                     className={classnames(
                       `ml-2`,
                     )}
-                    to={useBaseUrl('https://discord.gg/qbUhmH4')}>Join lexDAO</Button>
+                    to={useBaseUrl('https://discord.gg/qbUhmH4')}>Join LexDAO</Button>
               </Col>
             </Row>
             <h1>Features:</h1>
-          
+
         {features && features.length > 0 && (
           <section className={styles.features}>
             <Container>
