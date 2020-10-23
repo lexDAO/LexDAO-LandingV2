@@ -69,14 +69,20 @@ const features = [
 function Feature({ imageUrl, title, description }) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
-    <Col sm={12} md={4} className={classnames(styles.feature)}>
-      {imgUrl && (
-        <div className="text--center">
-          <img className={styles.featureImage} src={imgUrl} alt={title} />
-        </div>
-      )}
-      <h3>{title}</h3>
-      <p>{description}</p>
+    <Col sm={12} md={12} lg={4} className={classnames(styles.feature)}>
+      <Row>
+          {imgUrl && (
+            <Col lg={12} md={4} sm={12}>
+              <div className="text--center">
+                <img className={styles.featureImage} src={imgUrl} alt={title} />
+              </div>
+            </Col>
+          )}
+          <Col lg={12} md={8} sm={12}>
+            <h3>{title}</h3>
+            <p>{description}</p>
+          </Col>
+      </Row>
     </Col>
   );
 }
@@ -91,7 +97,7 @@ function Home() {
       <header className={classnames('hero hero--primary hero--dark', styles.heroBanner)}>
         <Container>
           <Row>
-            <Col xs="6" className="p-2">
+            <Col s="6" className="p-2">
               {/* <img className="pb-2 pt-3" src="img/lexDAO-Logo-White.png" width="350px" height="300px" /> */}
               <br/><br/><br/><br/>
               <h1 className="pt-2 pb-2 pl-2 hero__title">The Decentralized Legal Engineering Guild</h1>
@@ -123,7 +129,7 @@ function Home() {
                 </div>
               </div>
             </Col>
-            <Col xs="6" className="p-2">
+            <Col s="6" className="p-2">
               <img className="p-5 hero--image" src="/img/Hero-Image.png" />
             </Col>
           </Row>
