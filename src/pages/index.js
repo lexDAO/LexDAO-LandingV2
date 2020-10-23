@@ -94,8 +94,8 @@ function Home() {
             <Col xs="6" className="p-2">
               {/* <img className="pb-2 pt-3" src="img/lexDAO-Logo-White.png" width="350px" height="300px" /> */}
               <br/><br/><br/><br/>
-              <h1 className="pt-2 pb-2 pl-2 hero__title">lexDAO</h1>
-              <p className="pt-2 pb-2 pl-2 hero__subtitle">The Decentralized Legal Engineering Guild<br></br><br></br></p>
+              <h1 className="pt-2 pb-2 pl-2 hero__title">The Decentralized Legal Engineering Guild</h1>
+            {/* <p className="pt-2 pb-2 pl-2 hero__subtitle">The Decentralized Legal Engineering Guild<br></br><br></br></p> */}
               <div className="pt-2">
                 <div className={styles.buttons}>
                   <Button
