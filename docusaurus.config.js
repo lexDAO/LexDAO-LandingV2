@@ -83,7 +83,7 @@ module.exports = {
             {
               label: 'Support',
               href: 'https://discord.gg/KmFNEmp',
-            },
+            }
           ],
         },
         {
