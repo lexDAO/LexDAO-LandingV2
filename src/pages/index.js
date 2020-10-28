@@ -124,6 +124,7 @@ function Home() {
                       styles.getStarted,
                     )}
                     to={'/#join-lexDAO'}>
+
                     Join LexDAO
                 </Button>
                 </div>
